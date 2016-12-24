@@ -1,0 +1,8 @@
+# /var/www/site1.local/public/behat.yml
+default:
+  extensions:
+    Behat\Symfony2Extension: ~
+    Behat\MinkExtension:
+      goutte: ~
+      selenium2: ~
+      base_url: http://site1.local/web/app_dev.php
